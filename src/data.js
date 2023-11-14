@@ -20,7 +20,7 @@ export const portfolioData = [
         id: 1,
         title: "Car modifier",
         description: "My second project using Three.js and React Three Fiber. When I was young I played a lot of GTA San Andreas so when I decided to make a project with an interactible model, I immediately had to think of a modifiable car. The app basically lets you interchange the parts and colours of a little car. ",
-        description2: "The car parts and the rest of the model I drew with Blender &  I loaded the model in with React Three Fiber. This project was a step up from my first Three.js project (see later) in the sense that it added said interactibility but also lighting, camera angles and other.",
+        description2: "The car parts and the rest of the model I drew with Blender & I loaded the model in with React Three Fiber. This project was a step up from my first Three.js project (see later) in the sense that it added said interactibility but also lighting, camera angles and more.",
         githubLink: "https://github.com/NielsvanBrussel/carmod",
         liveLink: "https://nielsvanbrussel.github.io/carmod/",
         tech: ["javascript", "react", "blender", "threejs", "html", "css"],
@@ -29,8 +29,8 @@ export const portfolioData = [
     {
         id: 2,
         title: "Graphing calculator",
-        description: "Small React project to get familiar with D3.js. When I thought of data visualisation I had to think of the graphical calculators we used at school and decided to make a similar version for the browser. The app consists of a display where the graphs are drawn (D3 part), an input where you can enter multiple equations, a section where you can calculate the min and max of these equations and a section where you can calculate the intersections between 2 equations. The Nerdamer package is used to for the more complex calculations.",
-        description2: "",
+        description: "Small React project to get familiar with D3.js. When I think of data visualisation, I think of the graphical calculators we used at school so I decided to make a similar version for the browser. ",
+        description2: "The app consists of a display where the graphs are drawn (D3 part), an input where you can enter multiple equations, a section where you can calculate the min and max of these equations and a section where you can calculate the intersections between 2 equations. The Nerdamer package is used to for the more complex calculations.",
         githubLink: "https://github.com/NielsvanBrussel/graphcalc",
         liveLink: "https://nielsvanbrussel.github.io/graphcalc/",
         tech: ["javascript", "react", "html", "css", "d3"],
@@ -39,7 +39,7 @@ export const portfolioData = [
     {
         id: 3,
         title: "Gardener website",
-        description: "As someone who started out with React, I always felt like I skipped some of the core of vanilla javascript and thus decided to make a website purely out of JS, CSS and HMTL. Because I had very little inspiration I took an existing website (https://www.tomderanter.be/) and copied it (only visually of course) with some slight modifications. ",
+        description: "As someone who started out with React, I always felt like I skipped some of the core of vanilla Javascript and thus decided to make a website purely out of JS, CSS and HMTL. I took an existing website (https://www.tomderanter.be/) as inspiration and copied it (only visually of course) with some slight modifications. ",
         description2: "",
         githubLink: "https://github.com/NielsvanBrussel/gardenerWebsite",
         liveLink: "https://nielsvanbrussel.github.io/gardenerWebsite",
@@ -49,7 +49,7 @@ export const portfolioData = [
     {
         id: 4,
         title: "The Orchard",
-        description: "Basically just a display of my very first model I drew with Blender. There isn't much code going on but I figured I'd add this to my portfolio anyway. It got me familiarized with the basics of React Three Fiber but lacks real complexity like lights, shadows, & interactivity.",
+        description: "Basically just a display of my very first model I drew with Blender. There isn't much code going on but I figured I'd add this to my portfolio anyway. It got me familiarised with the basics of React Three Fiber but lacks real complexity like lights, shadows & interactivity.",
         description2: "",
         githubLink: "https://github.com/NielsvanBrussel/orchard",
         liveLink: "https://nielsvanbrussel.github.io/orchard/",
