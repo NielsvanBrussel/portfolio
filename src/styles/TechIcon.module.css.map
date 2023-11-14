@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,YAAY,CAAC;EACT,KAAK,ECHc,OAAO;CDI7B",
+    "sources": [
+        "../components/TechIcon.module.scss",
+        "shared/_colours.scss"
+    ],
+    "names": [],
+    "file": "TechIcon.module.css"
+}

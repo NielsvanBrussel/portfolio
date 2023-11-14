@@ -1,0 +1,122 @@
+@import './styles/shared/keyframes';
+@import './styles/shared/colours';
+@import './styles/shared/base';
+@import './styles/shared/fonts';
+
+
+
+.container__outer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Rubik-Regular";
+}
+
+.container__inner {
+    width: 100%;
+    height: 80vh;
+    background-color: $colour-grey-medium;
+    position: relative;
+}
+
+.carousel__outer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    transition: transform 1s ease;
+}
+
+.container__intro {
+    width: 100%;
+    height: 100%;
+}
+.experience__container {
+    width: 100%;
+    height: 100%;
+}
+
+.experience__container__animation {
+    animation: scale-down 1s ease-out forwards;
+}
+
+
+.header__container__animation {
+    animation: fade-out 1s linear forwards;
+}
+
+.button__container__animation {
+    animation: move-right 1s linear forwards;
+}
+
+.button__container__left{
+    left: calc(5% + 2rem) !important;
+}
+
+.absolute__container__outer {
+    position: absolute;
+    z-index: 2;
+    height: auto;
+    overflow: hidden;
+    .absolute__container__inner {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+.button__container__right{
+    left: calc(95% - 2rem) !important;
+}
+
+.header__container__outer {
+    top: 0%;
+    height: 100%;
+    text-align: center;
+}
+
+.header__container__inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button__container__outer {
+    bottom: 5%;
+    left: 50%;
+    height: 5rem;
+    transform: translateX(-50%) scale(1, 1);
+}
+
+.intro__title {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Rubik-Bold';
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Rubik-Bold';
+}
+
+h3 {
+    margin: 0 0 0 2rem;
+    height: 4vh;
+    font-size: 1rem;
+}
+

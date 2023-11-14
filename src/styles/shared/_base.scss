@@ -1,0 +1,42 @@
+@import './colours';
+@import './keyframes';
+
+.button {
+    animation: fade-in 2s linear forwards, border-flash 3s linear forwards;
+    animation-iteration-count: 1, infinite;
+    animation-delay: 0, 3s;
+    background-color: $colour-purple-medium;
+    border-radius: 0;
+    width: 100%;
+    text-align: left;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+    color:  $colour-grey-medium;
+    line-height: 1.6;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: $colour-purple-light;
+    transition: color 0.75s ease;
+}
+
+.button__large {
+    min-height: 3rem;
+    min-width: 6rem;
+}
+
+.button__medium {
+    min-height: 3rem;
+    min-width: 3rem;
+}
+
+.button__small {
+    min-height: 2rem;
+    min-width: 4rem;
+}
