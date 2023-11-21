@@ -359,6 +359,12 @@
   background-color: #8c1839;
 }
 
+.section__button__links {
+  -webkit-animation: fade-in 0.5s ease-in forwards;
+          animation: fade-in 0.5s ease-in forwards;
+  opacity: 0;
+}
+
 .section__flex__container {
   margin: calc(1rem + 2vh) 0rem;
   display: -webkit-box;

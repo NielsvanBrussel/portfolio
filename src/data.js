@@ -10,7 +10,7 @@ export const portfolioData = [
         id: 0,
         title: "Sidescroller game",
         description: "The largest project in my portfolio. Initially I made this just to learn Svelte but it turned into a Full-Stack app. The app is a small RPG game where you pick an avatar, level up, collect items, do small quests and fight certain enemies.",
-        description2: "The front-end of the app is connected to a back-end server made with Node.js & MongoDB. This allows authentication, loading and saving your game and account wide unlockable achievements. Almost no packages were used for this app and all the drawings were made on pixilart.com. The app is not a fully finished project since it still needs balancing and more content.",
+        description2: "The front-end of the app is connected to a back-end server made with Node.js & MongoDB. This allows authentication, loading and saving your game and account wide unlockable achievements. Almost no packages were used for this app and all the drawings were made on pixilart.com. The app is not a fully finished project since it still needs balancing and more content. [Note: Live version might take a while to load because of the cold start.]",
         githubLink: "https://github.com/NielsvanBrussel/sg-server",
         liveLink: "https://svelte-game-server-4erv.onrender.com",
         tech: ["javascript", "svelte", "node", "mongodb", "html", "css"],

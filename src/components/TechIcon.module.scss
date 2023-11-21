@@ -1,5 +1,13 @@
-@import '../styles//shared/colours';
+@import '../styles/shared/colours';
+@import '../styles/shared/keyframes';
 
+
+
+
+.layer__icon__container {
+    animation: fade-in 0.5s ease-in forwards;
+    opacity: 0;
+}
 
 .layer__icon {
     color: $colour-purple-medium;
